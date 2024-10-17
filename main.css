@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #010409;
+}
+
+.navbar .navbar-brand {
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+
+.navbar-brand span {
+  color: aqua;
+}
+
+/* menu */
+#section1 {
+  background-image: linear-gradient(to right, black, #031721);
+  color: white;
+}
+#section1 {
+  color: rgb(154, 154, 154);
+
+}
+
+#section1 .nama {
+  color: rgb(0, 194, 194);
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+}
+
+#section1 .btn{
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+/* about */
+
+#section2 {
+  background-image: linear-gradient(to right, black, #031721);
+}
+
+#section2 h2,
+#section4 h2 {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 35px;
+}
+
+#section2 h2 span{
+  color: aqua;
+}
+
+#section2 p{
+  color: rgb(154, 154, 154);
+}
+
+/* porto */
+#section3 {
+  /* background-color: #000d13; */
+  background-image: linear-gradient(to right, black, #031721);
+}
+
+#section3 .title-project {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 35px;
+}
+#section3 .title-project span {
+  color: aqua;
+}
+
+#section3 .subtitle-project {
+  font-size: 17px;
+  color: rgb(141, 141, 141);
+}
+
+#section3 .card {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgb(149, 149, 149);
+  transition: 0.4s;
+}
+
+#section3 .card:hover {
+  box-shadow: 0px 3px 10px aqua;
+  transform: scale(1.005);
+}
+
+#section3 .card-img-top {
+  border-radius: 6px;
+}
+
+#section3 .card-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+#section3 .card-text {
+  font-size: 15px;
+  color: rgb(179, 179, 179);
+}
+
+#section3 .card .btn {
+  background-color: aqua;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+#section3 .card .btn:hover {
+  background-color: rgb(0, 168, 168);
+  transform: scale(1.05);
+  color: black;
+}
+
+/* contact */
+#contact {
+  background-image: linear-gradient(to right, black, #031721);
+  color: white;
+}
+
+#contact h2 {
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+#contact h2 span {
+  font-family: "Roboto Slab", serif;
+  color: aqua;
+}
+
+#contact .form-control {
+  color: white;
+  background: none;
+}
+
+#contact .contact-submit {
+  background-color: aqua;
+}
+
+/* footer */
+.footer {
+  background-color: black;
+  color: white;
+}
+
+footer span {
+  color: aqua;
+}
